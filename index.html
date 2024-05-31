@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <title>Focus Timer 2.0</title>
+</head>
+<body>
+  <div class="app">
+    <div class="timer-container">
+      <div class="timer">
+        <span class="minutes">24</span>
+        <span class="separator">:</span>
+        <span class="seconds">59</span>
+      </div>
+      <div class="btn">
+        <button class="play">
+          <i class="ph ph-play"></i>
+        </button>
+        <button class="stop">
+          <i class="ph ph-pause-circle"></i>
+        </button>
+        <button class="tall">
+          <i class="ph ph-arrow-line-up"></i>
+        </button>
+        <button class="low">
+          <i class="ph ph-arrow-line-down"></i>
+        </button>
+      </div>
+    </div>
+    <section class="clima">
+      <div class="bg" data-audio="./assets/Chuva.wav">
+        <i class="ph ph-grains"></i>
+      </div>
+      <div class="bg-one" data-audio="./assets/Lareira.wav">
+        <i class="ph ph-hands-praying"></i>
+      </div>
+      <div class="bg-one" data-audio="./assets/Floresta.wav">
+        <i class="ph ph-mountains"></i>
+      </div>
+      <div class="bg-one" data-audio="./assets/Cafeteria.wav">
+        <i class="ph ph-paper-plane-tilt"></i>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>

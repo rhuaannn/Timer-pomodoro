@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(212, 201, 218);
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 308px;
+  height: 336px;
+  font-size: 25px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: medium;
+
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+}
+
+.btn {
+  display: flex;
+  height: 18px;
+  gap: 2px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.clima {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.bg {
+  display: flex;
+  background-color: #02799d;
+  height: 35px;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bg:hover {
+  background-color: #02799d;
+  opacity: 0.9;
+}
+.bg-one {
+  display: flex;
+  background-color: #e1e1e6;
+  height: 35px;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bg-one:hover {
+  background-color: #e1e1e6;
+  opacity: 0.8;
+}
