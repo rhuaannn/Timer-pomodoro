@@ -15,9 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 308px;
-  height: 336px;
-  font-size: 25px;
+  font-size: 29px;
   font-family: "Roboto Mono", monospace;
   font-weight: medium;
 
@@ -25,15 +23,18 @@ body {
 .timer {
   display: flex;
   flex-direction: row;
-  font-size: 35px;
+  font-size: 55px;
 }
 
 .btn {
   display: flex;
-  height: 18px;
+  height: 35px;
   gap: 2px;
   margin-top: 10px;
   margin-left: 15px;
+}
+button{
+  width: 35px;
 }
 
 i {
@@ -50,8 +51,8 @@ i {
 .bg {
   display: flex;
   background-color: #02799d;
-  height: 35px;
-  width: 35px;
+  height: 55px;
+  width: 55px;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
@@ -64,8 +65,8 @@ i {
 .bg-one {
   display: flex;
   background-color: #e1e1e6;
-  height: 35px;
-  width: 35px;
+  height: 55px;
+  width: 55px;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
